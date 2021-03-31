@@ -107,4 +107,10 @@ data.forEach((val)=>{
 })
 alert(alertData);
 console.log(data);
+  let EmptyInputValue=Array.from(document.querySelectorAll("input"));
+EmptyInputValue.forEach((vals)=>{
+    vals.value="";
+})
+step[2].classList.remove("active")
+step[0].classList.add("active")
 })
